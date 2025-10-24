@@ -33,6 +33,7 @@ NeoApp.controller("AppStatus_Ctrl", function($scope,$rootScope,$route,$timeout,$
 $App.NAB.PageNumber = 3;
 $App.NAB.PageID = "AppStatus";
 $scope.Headline17_click = function() {$scope.GotoPage( "Home" );};
+$scope.Headline11_click = function() {$scope.GotoPage( "Home" );};
 });
 NeoApp.controller("HelperTools_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 4;
