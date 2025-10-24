@@ -11,19 +11,18 @@ function debounce(func,wait,immediate){var timeout;return function(){var context
 NeoApp.controller("Home_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 1;
 $App.NAB.PageID = "Home";
-$scope.Headline1_click = function() {$scope.GotoPage( "A-Z" );};
-$scope.Headline2_click = function() {$scope.GotoPage( "Home" );};
-$scope.Headline3_click = function() {$scope.GotoPage( "HelperTools" );};
-$scope.Headline13_click = function() {$scope.GotoPage( "ADHD-Traits" );};
-$scope.Headline18_click = function() {$scope.GotoPage( "KnowThyself" );};
-$scope.Headline23_click = function() {$scope.GotoPage( "ADHDCharaters" );};
-$scope.Headline28_click = function() {$scope.GotoPage( "ADHDPuppetmasters" );};
-$scope.Headline32_click = function() {$scope.GotoPage( "HowToUse" );};
-$scope.Headline22_click = function() {$scope.GotoPage( "ADHDPuppetmasters" );};
-$scope.Headline27_click = function() {$scope.GotoPage( "Health" );};
-$scope.Headline39_click = function() {$scope.GotoPage( "Diary" );};
-$scope.Headline43_click = function() {$scope.GotoPage( "Diary" );};
-$scope.Container13_click = function() {window.document.location.reload();};
+$scope.PushButton14_click = function() {$scope.GotoPage( "Home" );};
+$scope.PushButton15_click = function() {$scope.GotoPage( "A-Z" );};
+$scope.PushButton16_click = function() {$scope.GotoPage( "Famous" );};
+$scope.PushButton17_click = function() {$scope.GotoPage( "Diary" );};
+$scope.PushButton18_click = function() {window.document.location.reload();};
+$scope.PushButton19_click = function() {$scope.GotoPage( "HowToUse" );};
+$scope.PushButton21_click = function() {$scope.GotoPage( "HelperTools" );};
+$scope.PushButton22_click = function() {$scope.GotoPage( "ADHD-Traits" );};
+$scope.PushButton23_click = function() {$scope.GotoPage( "KnowThyself" );};
+$scope.PushButton24_click = function() {$scope.GotoPage( "ADHDCharaters" );};
+$scope.PushButton25_click = function() {$scope.GotoPage( "AppStatus" );};
+$scope.PushButton26_click = function() {$scope.GotoPage( "Health" );};
 });
 NeoApp.controller("A-Z_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
