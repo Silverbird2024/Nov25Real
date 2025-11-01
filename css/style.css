@@ -24,25 +24,51 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline149 {position:absolute;left:173px;width:88px;top:3.94021739130435%;height:10.3260869565217%;margin:0;color:#B35432;font-style:italic}
 #PushButton86 {position:absolute;left:205px;width:99px;top:73.6413043478261%;height:4.48369565217391%;margin:0;color:#B35432;font-size:12pt;line-height:80%;background-color:#E6D2A3;border-bottom:3px solid #B35432;border-color:3px solid #B35432;border-left:3px solid #B35432;border-right:3px solid #B35432;border-style:solid;border-top:3px solid #B35432}
 #SWITCHES01 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#E6D2A3;border-top:2px solid black}
-#PushButton87 {position:absolute;left:10px;width:387px;top:5.16304347826087%;height:92.5271739130435%;margin:0;background-color:#A1B188}
-#PushButton100 {position:absolute;left:17px;width:375px;top:6.79347826086957%;height:38.179347826087%;margin:0;background-color:#000000}
-#Headline170 {position:absolute;left:111px;width:203px;top:15.2173913043478%;height:2.85326086956522%;margin:0;color:#707070;font-size:12pt;font-weight:600}
+#PushButton87 {position:absolute;left:9px;width:394px;top:5.97826086956522%;height:92.6630434782609%;margin:0;background-color:#A1B188}
 #Headline45 {position:absolute;left:16px;width:287px;top:1.35869565217391%;height:3.125%;margin:0;font-size:11pt}
 #Headline167 {position:absolute;left:302px;width:110px;top:0.135869565217391%;height:4.07608695652174%;margin:0;line-height:15%;text-align:left}
-#Slider1 {position:absolute;left:34px;width:339px;top:18.75%;height:5.16304347826087%;margin:0;}
+#Container14 {position:absolute;left:15px;width:385px;top:7.47282608695652%;height:43.75%;margin:0;border-width:1px;border-style:solid;background-color:#fff;;overflow-x:hidden;overflow-y:hidden}
+#PushButton94 {position:absolute;left:4px;width:375px;top:3.41614906832298%;height:91.6149068322981%;margin:0;background-color:#000000}
+#Headline175 {position:absolute;left:122px;width:142px;top:28.8819875776398%;height:6.52173913043478%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600}
+#Slider3 {position:absolute;left:23px;width:339px;top:37.2670807453416%;height:11.8012422360248%;margin:0;}
+#Slider3 > div .track-left {color:red;font-style:italic;background-color:black;border-color:#000000}
+#Slider3 > button {color:red;font-style:italic;background-color:black;border-color:#000000}
+#Headline176 {position:absolute;left:11px;width:366px;top:5.90062111801242%;height:12.4223602484472%;margin:0;color:#A8A8A8;font-size:22pt;font-weight:600;text-align:center}
+#Headline177 {position:absolute;left:21px;width:28px;top:28.2608695652174%;height:6.52173913043478%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600}
+#Headline178 {position:absolute;left:329px;width:38px;top:27.9503105590062%;height:6.52173913043478%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600}
+#Headline179 {position:absolute;left:59px;width:266px;top:24.8447204968944%;height:6.52173913043478%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600;text-align:center}
+#Slider4 {position:absolute;left:20px;width:339px;top:63.9751552795031%;height:11.8012422360248%;margin:0;}
+#Slider4 > div .track-left {font-style:italic;background-color:black;border-color:#000000}
+#Slider4 > button {font-style:italic;background-color:black;border-color:#000000}
+#Headline180 {position:absolute;left:313px;width:56px;top:57.1428571428571%;height:6.52173913043478%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600}
+#Headline181 {position:absolute;left:59px;width:266px;top:48.4472049689441%;height:6.52173913043478%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600;text-align:center}
+#Headline182 {position:absolute;left:66px;width:266px;top:77.9503105590062%;height:6.52173913043478%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600;text-align:center}
+#ProgressBar1 {position:absolute;left:111px;width:251px;top:85.4037267080745%;height:6.83229813664596%;margin:0;}
+#Headline153 {position:absolute;left:27px;width:56px;top:56.2111801242236%;height:6.52173913043478%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600}
+#Headline169 {position:absolute;left:106px;width:56px;top:56.5217391304348%;height:6.52173913043478%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600}
+#Headline170 {position:absolute;left:23px;width:47px;top:82.9192546583851%;height:6.52173913043478%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600}
+#Headline190 {position:absolute;left:11px;width:366px;top:15.8385093167702%;height:10.2484472049689%;margin:0;color:#A8A8A8;font-size:12pt;font-weight:600;text-align:center}
+#Container15 {position:absolute;left:15px;width:385px;top:51.9021739130435%;height:43.8858695652174%;margin:0;border-width:1px;border-style:solid;background-color:#fff;;overflow-x:hidden;overflow-y:hidden}
+#PushButton95 {position:absolute;left:4px;width:375px;top:3.40557275541796%;height:89.4736842105263%;margin:0;background-color:#000000}
+#Headline46 {position:absolute;left:122px;width:142px;top:27.8637770897833%;height:6.5015479876161%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600}
+#Slider1 {position:absolute;left:23px;width:339px;top:36.2229102167183%;height:11.7647058823529%;margin:0;}
 #Slider1 > div .track-left {color:red;font-style:italic;background-color:black;border-color:#000000}
 #Slider1 > button {color:red;font-style:italic;background-color:black;border-color:#000000}
-#Headline46 {position:absolute;left:81px;width:253px;top:7.20108695652174%;height:4.89130434782609%;margin:0;color:#707070}
-#Headline153 {position:absolute;left:34px;width:28px;top:15.3532608695652%;height:2.85326086956522%;margin:0;color:#707070;font-size:12pt;font-weight:600}
-#Headline171 {position:absolute;left:342px;width:38px;top:15.2173913043478%;height:2.85326086956522%;margin:0;color:#707070;font-size:12pt;font-weight:600}
-#Headline169 {position:absolute;left:72px;width:266px;top:12.9076086956522%;height:2.85326086956522%;margin:0;color:#707070;font-size:12pt;font-weight:600;text-align:center}
-#ProgressBar3 {position:absolute;left:30px;width:351px;top:39.8097826086957%;height:2.03804347826087%;margin:0;font-size:14pt;aspect-ratio:1 / 1;animation-delay:1s;animation-duration:1s;animation-fill-mode:forwards;animation-iteration-count:1;animation-name:fadeIn;transition:all 1s ease 0s}
-#Slider2 {position:absolute;left:33px;width:339px;top:30.9782608695652%;height:5.16304347826087%;margin:0;}
+#Headline171 {position:absolute;left:11px;width:366px;top:4.3343653250774%;height:12.6934984520124%;margin:0;color:#A8A8A8;font-size:22pt;font-weight:600;text-align:center}
+#Headline172 {position:absolute;left:21px;width:28px;top:27.2445820433437%;height:6.5015479876161%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600}
+#Headline173 {position:absolute;left:329px;width:38px;top:26.9349845201238%;height:6.5015479876161%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600}
+#Headline174 {position:absolute;left:59px;width:266px;top:23.5294117647059%;height:6.5015479876161%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600;text-align:center}
+#Slider2 {position:absolute;left:20px;width:339px;top:62.8482972136223%;height:11.7647058823529%;margin:0;}
 #Slider2 > div .track-left {font-style:italic;background-color:black;border-color:#000000}
 #Slider2 > button {font-style:italic;background-color:black;border-color:#000000}
-#Headline172 {position:absolute;left:33px;width:344px;top:27.8532608695652%;height:2.85326086956522%;margin:0;color:#707070;font-size:12pt;font-weight:600;text-align:left}
-#Headline173 {position:absolute;left:72px;width:266px;top:24.1847826086957%;height:2.85326086956522%;margin:0;color:#707070;font-size:12pt;font-weight:600;text-align:center}
-#Headline174 {position:absolute;left:79px;width:266px;top:37.0923913043478%;height:2.85326086956522%;margin:0;color:#707070;font-size:12pt;font-weight:600;text-align:center}
+#Headline183 {position:absolute;left:313px;width:56px;top:56.0371517027864%;height:6.5015479876161%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600}
+#Headline184 {position:absolute;left:59px;width:266px;top:47.3684210526316%;height:6.5015479876161%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600;text-align:center}
+#Headline185 {position:absolute;left:66px;width:266px;top:76.7801857585139%;height:6.5015479876161%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600;text-align:center}
+#ProgressBar2 {position:absolute;left:111px;width:251px;top:84.2105263157895%;height:6.81114551083591%;margin:0;}
+#Headline186 {position:absolute;left:27px;width:56px;top:55.1083591331269%;height:6.5015479876161%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600}
+#Headline187 {position:absolute;left:106px;width:56px;top:55.4179566563467%;height:6.5015479876161%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600}
+#Headline188 {position:absolute;left:23px;width:47px;top:84.5201238390093%;height:6.5015479876161%;margin:0;color:#E0E0E0;font-size:12pt;font-weight:600}
+#Headline189 {position:absolute;left:11px;width:366px;top:13.6222910216718%;height:12.0743034055728%;margin:0;color:#A8A8A8;font-size:12pt;font-weight:600;text-align:center}
 #A-Z {position:relative;width:100%;height:100%;overflow:auto;;background-color:#E6D2A3}
 #PushButton27 {position:absolute;left:10px;width:389px;top:3.66847826086957%;height:95.2445652173913%;margin:0;background-color:#A1B188}
 #Headline4 {position:absolute;left:16px;width:308px;top:1.35869565217391%;height:3.125%;margin:0;font-size:11pt}
