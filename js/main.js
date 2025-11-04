@@ -79,8 +79,9 @@ $App.Comp005 = localStorage.getItem("Comp005");
 $App.Comp006 = localStorage.getItem("Comp006");
 $App.Comp007 = localStorage.getItem("Comp007");
 $App.Comp008 = localStorage.getItem("Comp008");
-$App.Comp010 = localStorage.getItem("Comp009");
-$App.Comp010 = localStorage.getItem("Comp010");};
+$App.Comp009 = localStorage.getItem("Comp009");
+$App.Comp010 = localStorage.getItem("Comp010");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
 $scope.SWITCHES01_pageexit = function() {localStorage.setItem("switch001",$App.switch001);
 localStorage.setItem("switch001a",$App.switch001a);
 localStorage.setItem("switch002",$App.switch002);
@@ -111,19 +112,25 @@ localStorage.setItem("switch010",$App.switch010);
 localStorage.setItem("switch010a",$App.switch010a);
 localStorage.setItem("Comp009",$App.Comp009);
 localStorage.setItem("Comp010",$App.Comp010);};
-$App.switch001=1;
 $App.switch001a=0;
-$App.switch002=1;
+$App.switch001=1;
 $App.switch002a=0;
+$App.switch002=1;
 $App.switch003=1;
 $App.switch003a=0;
 $App.switch004=1;
 $App.switch004a=0;
 $App.switch005=1;
 $App.switch005a=0;
+$App.switch006=1;
+$App.switch006a=0;
+$App.switch007=1;
 $App.switch007a=0;
 $App.switch008=1;
 $App.switch008a=0;
+$App.switch009=1;
+$App.switch009a=0;
+$App.switch010=1;
 $App.switch010a=0;
 angular.element(document).ready( function(){
 $scope.__init();
@@ -153,6 +160,14 @@ $scope.GotoPage( "SWITCHES01" );};
 NeoApp.controller("SWITCHES01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
 $App.NAB.PageID = "SWITCHES01";
+$scope.Slider4_change = function() {$App.Comp001 = $scope.Calculate($App.switch001+"-"+$App.switch001a,-1);
+if ($App.Comp001 <= "0") {
+$App.Comp001 = "0";
+} else {
+};
+localStorage.setItem("Comp001",$App.Comp001);
+$App.Comp001 = localStorage.getItem("Comp001");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
 $scope.Slider3_change = function() {$App.max001 = localStorage.getItem("max001");
 $App.Comp001 = $scope.Calculate($App.switch001+"-"+$App.switch001a,-1);
 if ($App.Comp001 <= "0") {
@@ -160,33 +175,29 @@ $App.Comp001 = "0";
 } else {
 };
 localStorage.setItem("Comp001",$App.Comp001);
-$App.Comp001 = localStorage.getItem("Comp001");};
-$scope.Slider4_change = function() {$App.Comp001 = $scope.Calculate($App.switch001+"-"+$App.switch001a,-1);
-if ($App.Comp001 <= "0") {
-$App.Comp001 = "0";
-} else {
-};
-localStorage.setItem("Comp001",$App.Comp001);
-$App.Comp001 = localStorage.getItem("Comp001");};
-$scope.Slider1_change = function() {$App.Comp002 = $scope.Calculate($App.switch002+"-"+$App.switch002a,-1);
-if ($App.Comp002 <= "0") {
-$App.Comp002 = "0";
-} else {
-};
-localStorage.setItem("Comp002",$App.Comp002);
-$App.Comp002 = localStorage.getItem("Comp002");};
-$scope.Slider2_change = function() {$App.Comp002 = $scope.Calculate($App.switch002+"-"+$App.switch002a,-1);
-if ($App.Comp002 <= "0") {
-$App.Comp002 = "0";
-} else {
-};
-localStorage.setItem("Comp002",$App.Comp002);
-$App.Comp002 = localStorage.getItem("Comp002");};
+$App.Comp001 = localStorage.getItem("Comp001");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
+$scope.Headline45_click = function() {$scope.GotoPage( "Home" );};
 $scope.Pager1_prevclick = function() {$scope.GotoPage( "ADHD-Traits" );};
 $scope.Pager1_nextclick = function() {$scope.GotoNextPage();};
-$scope.Headline279_click = function() {$scope.GotoPage( "Home" );};
-$scope.Headline280_click = function() {$scope.GotoPage( "Home" );};
-$scope.Headline45_click = function() {$scope.GotoPage( "Home" );};
+$scope.Slider1_change = function() {$App.max002 = localStorage.getItem("max002");
+$App.Comp002 = $scope.Calculate($App.switch002+"-"+$App.switch002a,-1);
+if ($App.Comp002 <= "0") {
+$App.Comp002 = "0";
+} else {
+};
+localStorage.setItem("Comp002",$App.Comp002);
+$App.Comp002 = localStorage.getItem("Comp002");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
+$scope.Slider2_change = function() {$App.max002 = localStorage.getItem("max002");
+$App.Comp002 = $scope.Calculate($App.switch002+"-"+$App.switch002a,-1);
+if ($App.Comp002 <= "0") {
+$App.Comp002 = "0";
+} else {
+};
+localStorage.setItem("Comp002",$App.Comp002);
+$App.Comp002 = localStorage.getItem("Comp002");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
 });
 NeoApp.controller("SWITCHES02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 3;
@@ -198,28 +209,32 @@ $App.Comp003 = "0";
 } else {
 };
 localStorage.setItem("Comp003",$App.Comp003);
-$App.Comp003 = localStorage.getItem("Comp003");};
+$App.Comp003 = localStorage.getItem("Comp003");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
 $scope.Slider6_change = function() {$App.Comp003 = $scope.Calculate($App.switch003+"-"+$App.switch003a,-1);
 if ($App.Comp003 <= "0") {
 $App.Comp003 = "0";
 } else {
 };
 localStorage.setItem("Comp003",$App.Comp003);
-$App.Comp003 = localStorage.getItem("Comp003");};
+$App.Comp003 = localStorage.getItem("Comp003");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
 $scope.Slider7_change = function() {$App.Comp004 = $scope.Calculate($App.switch004+"-"+$App.switch004a,-1);
 if ($App.Comp004 <= "0") {
 $App.Comp004 = "0";
 } else {
 };
 localStorage.setItem("Comp004",$App.Comp004);
-$App.Comp004 = localStorage.getItem("Comp004");};
+$App.Comp004 = localStorage.getItem("Comp004");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
 $scope.Slider8_change = function() {$App.Comp004 = $scope.Calculate($App.switch004+"-"+$App.switch004a,-1);
 if ($App.Comp004 <= "0") {
 $App.Comp004 = "0";
 } else {
 };
 localStorage.setItem("Comp004",$App.Comp004);
-$App.Comp004 = localStorage.getItem("Comp004");};
+$App.Comp004 = localStorage.getItem("Comp004");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
 $scope.Pager2_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager2_nextclick = function() {$scope.GotoNextPage();};
 $scope.Headline281_click = function() {$scope.GotoPage( "Home" );};
@@ -235,28 +250,32 @@ $App.Comp005 = "0";
 } else {
 };
 localStorage.setItem("Comp005",$App.Comp005);
-$App.Comp005 = localStorage.getItem("Comp005");};
+$App.Comp005 = localStorage.getItem("Comp005");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
 $scope.Slider10_change = function() {$App.Comp005 = $scope.Calculate($App.switch005+"-"+$App.switch005a,-1);
 if ($App.Comp005 <= "0") {
 $App.Comp005 = "0";
 } else {
 };
 localStorage.setItem("Comp005",$App.Comp005);
-$App.Comp005 = localStorage.getItem("Comp005");};
+$App.Comp005 = localStorage.getItem("Comp005");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
 $scope.Slider11_change = function() {$App.Comp006 = $scope.Calculate($App.switch006+"-"+$App.switch006a,-1);
 if ($App.Comp006 <= "0") {
 $App.Comp006 = "0";
 } else {
 };
 localStorage.setItem("Comp006",$App.Comp006);
-$App.Comp006 = localStorage.getItem("Comp006");};
+$App.Comp006 = localStorage.getItem("Comp006");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
 $scope.Slider12_change = function() {$App.Comp006 = $scope.Calculate($App.switch006+"-"+$App.switch006a,-1);
 if ($App.Comp006 <= "0") {
 $App.Comp006 = "0";
 } else {
 };
 localStorage.setItem("Comp006",$App.Comp006);
-$App.Comp006 = localStorage.getItem("Comp006");};
+$App.Comp006 = localStorage.getItem("Comp006");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
 $scope.Pager3_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager3_nextclick = function() {$scope.GotoNextPage();};
 $scope.Headline284_click = function() {$scope.GotoPage( "Home" );};
@@ -272,21 +291,26 @@ $App.Comp007 = "0";
 } else {
 };
 localStorage.setItem("Comp007",$App.Comp007);
-$App.Comp007 = localStorage.getItem("Comp007");};
+$App.Comp007 = localStorage.getItem("Comp007");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
 $scope.Slider14_change = function() {$App.Comp007 = $scope.Calculate($App.switch007+"-"+$App.switch007a,-1);
 if ($App.Comp007 <= "0") {
 $App.Comp007 = "0";
 } else {
 };
 localStorage.setItem("Comp007",$App.Comp007);
-$App.Comp007 = localStorage.getItem("Comp007");};
+$App.Comp007 = localStorage.getItem("Comp007");
+localStorage.setItem("Comp007a",$App.Comp007a);
+$App.Comp007a = localStorage.getItem("Comp007a");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
 $scope.Slider15_change = function() {$App.Comp008 = $scope.Calculate($App.switch008+"-"+$App.switch008a,-1);
 if ($App.Comp008 <= "0") {
 $App.Comp008 = "0";
 } else {
 };
 localStorage.setItem("Comp008",$App.Comp008);
-$App.Comp008 = localStorage.getItem("Comp008");};
+$App.Comp008 = localStorage.getItem("Comp008");
+$App.Comptot = $scope.Calculate($App.Comp001+"+"+$App.Comp002+"+"+$App.Comp003+"+"+$App.Comp004+"+"+$App.Comp005+"+"+$App.Comp006+"+"+$App.Comp007+"+"+$App.Comp008,-1);};
 $scope.Slider16_change = function() {$App.Comp008 = $scope.Calculate($App.switch008+"-"+$App.switch008a,-1);
 if ($App.Comp008 <= "0") {
 $App.Comp008 = "0";
