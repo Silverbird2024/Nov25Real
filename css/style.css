@@ -300,9 +300,10 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Health {position:relative;width:100%;height:100%;overflow:auto;;background-color:#E6D2A3}
 #PushButton35 {position:absolute;left:10px;width:389px;top:3.66847826086957%;height:95.2445652173913%;margin:0;background-color:#A1B188}
 #Headline36 {position:absolute;left:16px;width:308px;top:1.35869565217391%;height:3.125%;margin:0;font-size:11pt}
-#Headline37 {position:absolute;left:22px;width:136px;top:8.96739130434783%;height:4.07608695652174%;margin:0;line-height:15%;text-align:left}
-#Headline38 {position:absolute;left:22px;width:110px;top:4.89130434782609%;height:4.07608695652174%;margin:0;line-height:15%;text-align:left}
 #Headline60 {position:absolute;left:302px;width:110px;top:0.135869565217391%;height:4.07608695652174%;margin:0;line-height:15%;text-align:left}
+#Image21 {position:absolute;left:140px;width:267px;top:15.4891304347826%;height:54.8913043478261%;margin:0;}
+#Headline38 {position:absolute;left:24px;width:347px;top:7.20108695652174%;height:5.57065217391304%;margin:0;color:#B35432;font-family:Times New Roman,Times,serif;font-size:14pt}
+#Headline37 {position:absolute;left:26px;width:184px;top:15.8967391304348%;height:70.7880434782609%;margin:0;color:#B35432;font-family:Times New Roman,Times,serif;font-size:14pt}
 #Famous {position:relative;width:100%;height:100%;overflow:auto;;background-color:#E6D2A3}
 #PushButton37 {position:absolute;left:10px;width:389px;top:3.66847826086957%;height:95.2445652173913%;margin:0;background-color:#A1B188}
 #Headline44 {position:absolute;left:16px;width:308px;top:1.35869565217391%;height:3.125%;margin:0;font-size:11pt}

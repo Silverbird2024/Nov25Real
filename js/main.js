@@ -615,8 +615,6 @@ $scope.Headline31_click = function() {$scope.GotoPage( "Home" );};
 NeoApp.controller("Health_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 13;
 $App.NAB.PageID = "Health";
-$scope.Headline37_click = function() {$scope.GotoPage( "A-Z" );};
-$scope.Headline38_click = function() {$scope.GotoPage( "Home" );};
 $scope.Headline60_click = function() {$scope.GotoPage( "Home" );};
 });
 NeoApp.controller("Famous_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
